@@ -2,8 +2,8 @@ import streamlit as st
 from openai import OpenAI
 
 # Título y descripción
-st.title("💬 Chatbot")
-st.write("Este es un chatbot que utiliza diferentes modelos GPT. El modelo que selecciones va a ser el que va a usar durante toda la sesión")
+st.title("💬 Chatbot Sullair")
+st.write("Este es un chatbot que utiliza diferentes modelos GPT. \n El modelo que selecciones va a ser el que va a usar durante toda la sesión")
 
 # Lista de modelos disponibles
 model_options = ["gpt-3.5-turbo", "gpt-4-turbo", "gpt-4", "gpt-4o","gpt-4o-mini"]
